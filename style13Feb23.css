@@ -1,0 +1,34 @@
+/* TYPOGRAPHY */
+/*  font family */
+/* GOOGLE FONTS */
+/* put into consideration the load time of fonts ie the bolder the fonts the longer it takes to load */
+/* we can use two ways to include the code. using the link or use importing */
+/* I added the link to index13feb.html */
+
+ /* @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,800&family=Roboto:wght@100&family=Square+Peg&display=swap'); */
+ /* font-weight- makes our fonts bolder/lighter etc
+ NB: When applying the font weight , it will not change unless you specify the class ie the code I imported was 800 thus the body is 800 hence it will overrride my code( font weight)
+ to fix this use classes to specify
+ font-style- italics, oblique etc.
+ 
+ NB: BE MINDFUL OF THE INHERITANCES*/
+
+body{
+ font-family: 'Bricolage Grotesque', sans-serif;
+
+ 
+}
+.main{
+ font-family: 'Square Peg', cursive;
+}
+.subheading{
+ font-style:normal ;
+}
+.one{
+  font-weight: 900;
+  font-style: italic;
+}
+.two{
+ font-weight: lighter;
+ font-style: oblique;
+}
